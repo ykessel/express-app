@@ -5,10 +5,14 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yanniel Kessel Bencosme",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
